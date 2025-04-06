@@ -8,7 +8,7 @@
 
 int main() {
     //teste
-    pritf("Super Trunfo");
+    printf("Super Trunfo\n");
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
