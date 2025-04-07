@@ -29,7 +29,7 @@ int main() {
     float pib2;             //recebe um número com casas decimais
     int n_ptos_tur2;        //recebe um número inteiro
 
-    //inserção de dados da carta 1
+    //inserção de dados para carta 1
     printf("Digite os dados da carta 1, de acordo com os itens solicitados:\n");
 
     printf("Digite uma letra para o estado da carta 1: ");
