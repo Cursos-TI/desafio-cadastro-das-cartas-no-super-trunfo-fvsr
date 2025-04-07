@@ -12,7 +12,22 @@ int main() {
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
     //Declaração de váriaveis para carta 1
+    char estado1;           //recebe uma letra
+    char codigo_carta1[3];  //recebe três caracteres, sendo uma letra e dois números
+    char nome_cidade1[20];  //recebe o nome de uma cidade
+    int populacao1;         //recebe um número inteiro
+    float area1;            //recebe um número com casas decimais
+    float pib1;             //recebe um número com casas decimais
+    int n_ptos_tur1;        //recebe um número inteiro
 
+    //Declaração de váriaveis para carta 2
+    char estado2;           //recebe uma letra
+    char codigo_carta2[3];  //recebe três caracteres, sendo uma letra e dois números
+    char nome_cidade2[20];  //recebe o nome de uma cidade
+    int populacao2;         //recebe um número inteiro
+    float area2;            //recebe um número com casas decimais
+    float pib2;             //recebe um número com casas decimais
+    int n_ptos_tur2;        //recebe um número inteiro
     
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
