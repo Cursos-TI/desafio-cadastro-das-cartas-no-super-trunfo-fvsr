@@ -35,8 +35,11 @@ int main() {
     printf("Digite uma letra para o estado da carta 1: ");
     scanf("%c",&estado1);
 
-    printf("Digite o código da carta 1: ");
+    printf("Digite o código da carta 1, composto por uma letra e dois números: ");
     scanf("%s", codigo_carta1);
+
+    printf("Digite o nome da cidade 1:");
+    scanf("    %s", nome_cidade1);
 
     //inserção de dados para carta 2
 
@@ -44,6 +47,7 @@ int main() {
     printf("Dados relativos a carta 1:\n");
     printf("Código da carta 1: %s\n", codigo_carta1);
 
+    printf("Nome da cidade 1: %s\n", nome_cidade1);
 
     //saída de dados para carta 2
     
