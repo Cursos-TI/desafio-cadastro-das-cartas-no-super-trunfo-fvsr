@@ -28,6 +28,24 @@ int main() {
     float area2;            //recebe um número com casas decimais
     float pib2;             //recebe um número com casas decimais
     int n_ptos_tur2;        //recebe um número inteiro
+
+    //inserção de dados da carta 1
+    printf("Digite os dados da carta 1, de acordo com os itens solicitados:\n");
+
+    printf("Digite uma letra para o estado da carta 1: ");
+    scanf("%c",&estado1);
+
+    printf("Digite o código da carta 1: ");
+    scanf("%s", codigo_carta1);
+
+    //inserção de dados para carta 2
+
+    //saída de dados para carta 1
+    printf("Dados relativos a carta 1:\n");
+    printf("Código da carta 1: %s\n", codigo_carta1);
+
+
+    //saída de dados para carta 2
     
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
